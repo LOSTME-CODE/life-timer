@@ -30,11 +30,11 @@ nbt.addEventListener('click',inputMsg);
 function inputMsg(){
     let name = prompt('How can i help');
                                  /*nbtn.textContent ='roll no.1' + name;} */  
-/*nbt.addEventListener('click',showMsg);                                      #not working
+nbt.addEventListener('click',showMsg);                                      #not working
 function showMsg(){
-    alert (" namaste world! ");}
+    alert (" thank you! ");}
 
-                                 function showMsg() {
+                                 /*function showMsg() {
 alert('Thank you!');
 }
 

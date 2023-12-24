@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button st HE {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 39px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem; }
+.background {
+    background-image: url("C:/Users/Dell/Desktop/m.jpg");
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    place-items:center;
+    height: 100vh;
+}
+
+.container h1 {
+  font-size: 3rem;
+}
+
+.settings {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.settings .fa-cog{
+    font-size: 3rem;
+    color: white;
+}
+
+.settings-content{
+    display: flex;
+    gap: 1rem;
+}
+
+.settings-content input{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.settings-Content button{
+    padding: 0.5rem 1rem;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+.time-container{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-container h2{
+    line-height: 60px;
+    text-align:center;
+    font-size: 3rem;
+}
+.time-container div{
+    color: white;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

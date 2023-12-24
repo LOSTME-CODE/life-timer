@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>life timer</title>
+    <link rel="stylesheet"href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> 
+</head>
+<body>
+    
+    <div class="background">
+        
+        <div id="initialText" class="container">
+          <h1> kindly enter your DOB </h1>
+        </div> 
+        <div id="afterDOBBtnTXt" class="container">
+          <div class="center">
+            <h1>Life Journey Covered</h1>
+            <div class="time-container">
+                <h2>
+                    <div id="year">0</div>
+                    year
+                </h2>
+                <h2>
+                    <div id="month">0</div>
+                    month
+                </h2>
+                <h2>
+                    <div id="day">0</div>
+                    days
+                </h2>
+                <h2>
+                    <div id="hour">0</div>
+                    hour
+                </h2>
+                <h2>
+                    <div id="minute">0</div>
+                    minute
+                </h2>
+                <h2>
+                    <div id="second">0</div>
+                    second
+                </h2>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="settings">
+            <button id="st"> START </button>
+            <button id="HE"> HELP </button>
+            
+            <i id="settingIcon" class="fa-solid fa-gear"></i>
+            <div id="settingContent" class="settings-Content">
+                <input type="date" id="dobInput"/>
+                <button id="dobButton">ADD DOB</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+     
+</body>
+</html>
